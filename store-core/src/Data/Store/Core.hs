@@ -40,7 +40,7 @@ import           Control.Monad.Primitive (PrimMonad (..))
 import           Data.ByteString (ByteString)
 import qualified Data.ByteString.Internal as BS
 import           Data.Monoid ((<>))
-import           Data.Primitive.ByteArray
+import           Data.Primitive.ByteArray hiding (copyByteArrayToAddr)
 import qualified Data.Text as T
 import           Data.Typeable
 import           Data.Word
